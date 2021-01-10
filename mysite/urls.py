@@ -18,6 +18,7 @@ from django.urls import path
 from trips import views
 
 urlpatterns = [
+    path('', views.home),
     path('admin/', admin.site.urls),
     path('hello/', views.hello),
 ]
